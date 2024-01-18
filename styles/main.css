@@ -1,0 +1,140 @@
+html {
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+body {
+  background-color: salmon;
+}
+header {
+  width: 100vw;
+  text-align: center;
+  font-size: 30px;
+  padding: 30px;
+  /* display: block; */
+}
+header img {
+  float: left;
+  height: 100px;
+  width: auto;
+  padding-top: 10px;
+}
+
+p {
+  background-color: white;
+  margin: 0px 10px;
+}
+.receptionimg {
+  width: 50vw;
+  height: auto;
+  float: right;
+  align-content: center;
+}
+
+.homeli {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.homeli:hover {
+  background-color: white;
+  /* color: red; why doesn't it work */
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.subheader {
+  background-color: white;
+  max-width: 80%;
+ }
+
+ .taskli {
+  font-size: 15px;
+  display: block;
+ }
+
+ .subp {
+  font-size: 20px;
+  font-style: italic;
+ }
+ .marginimg {
+  min-height: 200px;
+  height: 30%;
+  width: auto;
+  display: inline-block;
+  /* align-items: center; how to make them center vertically?*/
+}
+.html-css-p {
+  background-color: salmon;
+  display: block;
+}
+
+.btn {
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  color: black;
+  opacity: 50%;
+  padding: 2px;
+  text-align: center;
+  text-decoration: none;
+}
+.h1block {
+  display: inline-block;
+}
+.right {
+  display: inline-block;
+  float: right;
+}
+.example {
+  background-color: rgb(247, 180, 172);
+  opacity: 50%;
+  font-style: italic;
+  }
+
+.example2 {
+  background-color: rgb(247, 180, 172);
+}
+
+@media (max-width: 800px) {
+  .receptionimg {
+    width: 100vw;
+    float: left;
+    left: 0;
+    bottom: 0;
+ 
+  header img {
+    width: 200px;
+    height: auto;
+    align-items: center;
+  }
+  header {
+    display: block;
+  }
+  /* ul li {
+    display: block;
+  } */
+ 
+}
+
+
+
+
+
+/* how to style link? text-decoration: none; - no underline & the text color or color when :hover
+how to make header text below the image when it's smaller than width 800 (mobile)?
+how to make the list vertical when its mobile?
+why .subheader makes the background wider than window? max-width must?*/
