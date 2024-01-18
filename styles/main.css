@@ -109,6 +109,9 @@ footer {
   background-color: rgb(247, 180, 172);
 }
 
+.learningplandiv {
+  background-color: white;
+}
 @media (max-width: 800px) {
   .receptionimg {
     width: 100vw;
