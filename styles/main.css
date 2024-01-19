@@ -14,7 +14,7 @@ footer {
   flex-direction: column;
 }
 .home {
-  background-image: url('/Users/moa/workspace/moa-ha.github.io/img/home.avif');
+  background-image: url('/img/home.avif');
   background-size: cover;
   background-color: rgb(127, 195, 255);
   height: 600px;
