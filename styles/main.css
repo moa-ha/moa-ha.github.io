@@ -1,141 +1,143 @@
 html {
   font-family: sans-serif;
 }
+.subbody {
+  height: 100vh;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+}
 .container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
-
-body {
-  background-color: salmon;
-}
-header {
-  width: 100vw;
-  text-align: center;
-  font-size: 30px;
-  padding: 30px;
-  /* display: block; */
-}
-header img {
-  float: left;
-  height: 100px;
-  width: auto;
-  padding-top: 10px;
-}
-
-p {
-  background-color: white;
-  margin: 0px 10px;
-}
-.receptionimg {
-  width: 50vw;
-  height: auto;
-  float: right;
-  align-content: center;
-}
-
-.homeli {
-  font-size: 30px;
+.home {
+  background-image: url('/Users/moa/workspace/moa-ha.github.io/img/home.avif');
+  background-size: cover;
+  background-color: rgb(127, 195, 255);
+  height: 600px;
+  display: block;
   color: white;
-  text-decoration: none;
+  font-size: 100px;
+  text-shadow: 2px 2px 4px #666;
+  padding: 50px 100px;
+  text-align: right;
+}
+/* .homediv {
+  background-image: url('/Users/moa/workspace/moa-ha.github.io/img/book.jpeg');
+  background-size: 300px;
+  background-repeat: no-repeat;
+  height: 300px;
+  color: black;
+} */
+.image-with-text {
+  position: relative;
   display: inline-block;
 }
 
-.homeli:hover {
-  background-color: white;
-  /* color: red; why doesn't it work */
-}
-
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
+.image-with-text img {
+  display: block;
   width: 100%;
-  text-align: center;
-  color: white;
 }
 
-.subheader {
-  background-color: white;
-  max-width: 80%;
- }
-
- .taskli {
-  font-size: 15px;
-  display: block;
- }
-
- .subp {
-  font-size: 20px;
-  font-style: italic;
- }
- .marginimg {
-  min-height: 200px;
-  height: 30%;
-  width: auto;
-  display: inline-block;
-  /* align-items: center; how to make them center vertically?*/
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 25px;
 }
-.html-css-p {
-  background-color: salmon;
-  display: block;
+.image-with-text:hover {
+  opacity: 50%;
+  transition-duration: 1s;
 }
-
+.subhome {
+  border-bottom: 2px solid rgb(127, 195, 255);
+}
+.subimg {
+  width: 150px;
+  height: auto;
+}
+.subhome span {
+  font-size: xx-large;
+}
 .btn {
-  background-color: white;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  background-color: rgb(127, 195, 255);
   border: none;
   border-radius: 50%;
-  color: black;
   opacity: 50%;
-  padding: 2px;
-  text-align: center;
   text-decoration: none;
 }
-.h1block {
+.html-css-p {
   display: inline-block;
+  text-align: center;
 }
-.right {
+.marginimg {
   display: inline-block;
-  float: right;
+  height: 30vh;
+  /* justify-content: space-between; */
 }
-.example {
-  background-color: rgb(247, 180, 172);
-  opacity: 50%;
+.subqna {
+  margin: 20px;
+}
+.toggle {
+  font-size: 20px;
+  display: block;
+  margin: 20px;
+}
+.smalltext {
+  font-size: 15px;
+  color: gray;
   font-style: italic;
-  }
-
-.example2 {
-  background-color: rgb(247, 180, 172);
+}
+.hidden-box {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  margin: 10px 20px;
 }
 
-.learningplandiv {
-  background-color: white;
+.toggle:hover + .hidden-box {
+  max-height: 300px;
+}
+.subtitle {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px 0px 0px;
+}
+.definition {
+  padding: 0px;
+  margin: 0px;
+}
+.linkbtn {
+  padding: 5px;
+  background-color: rgb(127, 195, 255);
+  border: none;
+  border-radius: 50%;
+  opacity: 50%;
+  text-decoration: none;
 }
 @media (max-width: 800px) {
-  .receptionimg {
-    width: 100vw;
-    float: left;
-    left: 0;
-    bottom: 0;
- 
-  header img {
-    width: 200px;
+  .home {
+    text-align: center;
+  }
+
+  .subhome span {
+    display: block;
+  }
+  .marginimg {
+    display: inline-block;
+    width: 500px;
     height: auto;
-    align-items: center;
   }
-  header {
-    display: block;
-  }
-  /* ul li {
-    display: block;
-  } */
- 
 }
-
-
-
-
 
 /* how to style link? text-decoration: none; - no underline & the text color or color when :hover
 how to make header text below the image when it's smaller than width 800 (mobile)?
