@@ -124,6 +124,31 @@ footer {
   opacity: 50%;
   text-decoration: none;
 }
+
+.jshead {
+  font-size: 23px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+.jsDom {
+  height: 20vh;
+}
+
+.bigtext {
+  color: gray;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.background {
+  background-color: rgb(239, 245, 251);
+  margin: 20px;
+}
+.textcenter {
+  text-align: center;
+}
+
 @media (max-width: 800px) {
   .home {
     text-align: center;
@@ -131,8 +156,15 @@ footer {
 
   .subhome span {
     display: block;
+    text-align: center;
   }
   .marginimg {
+    display: inline-block;
+    width: 500px;
+    height: auto;
+  }
+
+  .jsDom {
     display: inline-block;
     width: 500px;
     height: auto;
