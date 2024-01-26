@@ -50,7 +50,7 @@ footer {
   transform: translate(-50%, -50%);
   color: black;
   font-size: 25px;
-  text-align: left;
+  text-align: center;
 }
 .image-with-text:hover {
   opacity: 50%;
