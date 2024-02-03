@@ -25,13 +25,13 @@ footer {
   padding: 50px 100px;
   text-align: right;
 }
-/* .homediv {
-  background-image: url('/Users/moa/workspace/moa-ha.github.io/img/book.jpeg');
-  background-size: 300px;
-  background-repeat: no-repeat;
-  height: 300px;
-  color: black;
-} */
+.homediv {
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: wavy;
+  text-shadow: 2px 2px 4px #666;
+}
 
 .image-with-text {
   position: relative;
@@ -152,15 +152,20 @@ footer {
   text-align: center;
 }
 
+.te-whare-body {
+  width: 1200px;
+}
+
 .center-image {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .te-whare-text {
   font-size: 15px;
-  width: 25vw;
+  width: 380px;
 }
 .spider-web {
   position: relative;
@@ -174,7 +179,7 @@ footer {
   display: block;
 }
 .te-whare-div img {
-  width: 30vw;
+  width: 400px;
   height: auto;
   /* border-radius: 50%; */
 }
@@ -191,12 +196,12 @@ footer {
 }
 .bubble-right {
   position: absolute;
-  right: 10px;
+  left: 800px;
 }
 
 .bubble-center {
   position: absolute;
-  left: 30%;
+  left: 400px;
 }
 
 .exImage {
