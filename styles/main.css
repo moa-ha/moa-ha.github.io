@@ -166,7 +166,7 @@ footer {
   position: relative;
 }
 .spider-web img {
-  width: 50vw;
+  height: 40vh;
 }
 
 .te-whare-div {
@@ -175,6 +175,7 @@ footer {
 }
 .te-whare-div img {
   width: 30vw;
+  height: auto;
   /* border-radius: 50%; */
 }
 .te-whare-div img:hover {
@@ -196,6 +197,10 @@ footer {
 .bubble-center {
   position: absolute;
   left: 30%;
+}
+
+.exImage {
+  width: 400px;
 }
 
 @media (max-width: 800px) {
