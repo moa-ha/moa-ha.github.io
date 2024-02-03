@@ -32,6 +32,10 @@ footer {
   text-decoration: wavy;
   text-shadow: 2px 2px 4px #666;
 }
+.homediv img {
+  height: 100px;
+  width: auto;
+}
 
 .image-with-text {
   position: relative;
