@@ -233,21 +233,23 @@ footer {
     height: auto;
   }
 
-  .te-whare-div img {
-    width: 400px;
-  }
-
   .te-whare-div {
     display: flex;
     justify-content: center;
     /* align-items: flex-end; */
     flex-wrap: wrap;
+    float: left;
+  }
+
+  .te-whare-div img {
+    width: 400px;
   }
 
   .bubble,
   .bubble-right,
   .bubble-center {
     position: relative;
+    left: 0px;
   }
   .bubble-center {
     left: 0;
