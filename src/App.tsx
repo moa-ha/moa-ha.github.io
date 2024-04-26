@@ -1,8 +1,13 @@
+import Home from './Home'
+import NavBar from './NavBar'
+import Projects from './Projects'
+
 function App() {
   return (
     <>
-      <h1>My Portfolio</h1>
-      <h2>Hello World?!</h2>
+      <NavBar />
+      <Home />
+      <Projects />
     </>
   )
 }
