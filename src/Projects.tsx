@@ -1,8 +1,15 @@
+import tradietracker from './image/tradie-tracker.png'
+
 function Projects() {
   return (
     <>
       <div className="container">
-        <div>
+        <div className="project">
+          <img
+            src={tradietracker}
+            alt="Tradie Tracker Wireframe"
+            className="wire-frame"
+          />
           Tradie Tracker<p>from April 2024</p>
           <p>Efficient On-Site Location-Based Employee Scheduling App</p>
           <p>
@@ -10,7 +17,7 @@ function Projects() {
             from the scratch to consolidate the concepts and make clear code
           </p>
         </div>
-        <div>
+        <div className="project">
           Car-GP<p> from April 2024</p>
           <p>
             An app that tracks car maintenance status and calculates upcoming
@@ -23,7 +30,7 @@ function Projects() {
             information.
           </p>
         </div>
-        <div>
+        <div className="project">
           LyricSync<p>from May 2024</p>
           <p>
             An app that translates song lyrics into the desired language and

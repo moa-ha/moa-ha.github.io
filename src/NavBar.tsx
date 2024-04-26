@@ -8,12 +8,20 @@ function NavBar() {
     <>
       <div className="container">
         <span>
-          <img src={github} alt="github" className="icon" />
-          <img src={linkedin} alt="linkedin" className="icon" />
+          <a href="https://github.com/moa-ha" target="blank">
+            <img src={github} alt="github" className="icon" />
+          </a>
+          <a href="https://www.linkedin.com/in/moa-ha" target="blank">
+            <img src={linkedin} alt="linkedin" className="icon" />
+          </a>
         </span>
         <span className="nav-right">
-          <img src={home} alt="home" className="icon" />
-          <img src={projects} alt="projects" className="icon" />
+          <a href="https://github.com/moa-ha" target="blank">
+            <img src={home} alt="home" className="icon" />
+          </a>
+          <a href="https://github.com/moa-ha" target="blank">
+            <img src={projects} alt="projects" className="icon" />
+          </a>
         </span>
       </div>
     </>

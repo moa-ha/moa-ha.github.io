@@ -1,19 +1,56 @@
 .container {
   font-family: sans-serif;
+  padding: 20px 50px;
 }
+
+/* NavBar */
 
 .icon {
   width: 40px;
   margin: 10px;
 }
 
+/* .icon:hover {
+  background-color: #54dfd8;
+  color: white;
+} */
+
 .nav-right {
   float: right;
 }
 
+/* Home */
+
 .home {
-  padding: 20px 10px;
+  padding-top: 200px;
+  font-size: 25px;
+  height: 400px;
 }
 .small-gap {
-  margin: 0px;
+  margin: 5px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background-color: #54dfd8;
+  color: white;
+}
+
+/* Projects */
+
+.project {
+  padding: 20px 0px;
+}
+.wire-frame {
+  width: 300px;
 }
