@@ -1,0 +1,19 @@
+.container {
+  font-family: sans-serif;
+}
+
+.icon {
+  width: 40px;
+  margin: 10px;
+}
+
+.nav-right {
+  float: right;
+}
+
+.home {
+  padding: 20px 10px;
+}
+.small-gap {
+  margin: 0px;
+}
