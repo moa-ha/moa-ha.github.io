@@ -5,7 +5,7 @@ import github from './image/github.png'
 function Projects() {
   return (
     <>
-      <div>
+      <div id="projects">
         <div className="projects">
           <img
             src={tradietracker}

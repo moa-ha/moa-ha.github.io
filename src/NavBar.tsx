@@ -19,7 +19,7 @@ function NavBar() {
           <a href="#home">
             <img src={home} alt="home" className="icon" />
           </a>
-          <a href="#project" target="_blank">
+          <a href="#project">
             <img src={projects} alt="projects" className="icon" />
           </a>
         </span>
