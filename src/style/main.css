@@ -58,6 +58,21 @@
   color: white;
 }
 
+/* About Me */
+
+#about-me {
+  padding: 10px;
+  transition: box-shadow 0.3s ease;
+  border-radius: 10px;
+}
+
+.introduction {
+  font-size: 17px;
+}
+
+#about-me:hover {
+  box-shadow: 0px 0px 10px #54dfd8;
+}
 /* Projects */
 
 .projects {

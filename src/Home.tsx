@@ -6,7 +6,10 @@ function Home() {
           <p className="small-gap">Hello World! I'm </p>
           <h1 className="small-gap">Moa Ha</h1>
           <p className="small-gap">Full Stack Developer</p>
-          {/* <button className="button">About Me</button> */}
+          <a href="#about-me">
+            <button className="button">About Me</button>
+          </a>
+
           <a href="#projects">
             <button className="button" id="project">
               Projects
