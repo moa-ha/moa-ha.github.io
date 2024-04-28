@@ -56,9 +56,22 @@
 
 /* Projects */
 
+.projects {
+  height: 280px;
+  width: calc(100% - 100px);
+  border: 1px ridge gray;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
 .project {
-  padding: 20px 0px;
+  padding: 20px;
 }
 .wire-frame {
-  width: 300px;
+  width: 380px;
+  float: right;
+  padding: 20px;
+}
+
+.title {
+  font-size: 25px;
 }

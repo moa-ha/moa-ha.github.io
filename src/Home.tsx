@@ -1,7 +1,7 @@
 function Home() {
   return (
     <>
-      <div className="container" id="home">
+      <div id="home">
         <div className="home">
           <p className="small-gap">Hello World! I'm </p>
           <h1 className="small-gap">Moa Ha</h1>
