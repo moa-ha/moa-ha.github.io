@@ -1,5 +1,5 @@
 import tradietracker from './image/tradie-tracker.png'
-import cargp from './image/Car-GP.png'
+// import cargp from './image/Car-GP.png'
 import github from './image/github.png'
 
 function Projects() {
