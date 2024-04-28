@@ -4,7 +4,7 @@ import github from './image/github.png'
 
 function Projects() {
   return (
-    <>
+    <div className="container">
       <div id="projects">
         <div className="projects">
           <img
@@ -67,7 +67,7 @@ function Projects() {
           </div>
         </div> */}
       </div>
-    </>
+    </div>
   )
 }
 export default Projects

@@ -5,7 +5,7 @@ import projects from './image/projects.png'
 
 function NavBar() {
   return (
-    <>
+    <div className="container">
       <div className="navbar">
         <span>
           <a href="https://github.com/moa-ha" target="_blank">
@@ -24,7 +24,7 @@ function NavBar() {
           </a>
         </span>
       </div>
-    </>
+    </div>
   )
 }
 

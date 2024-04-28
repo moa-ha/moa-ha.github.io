@@ -1,7 +1,6 @@
 .container {
   font-family: sans-serif;
   margin: 20px 50px;
-  width: 100%;
 }
 
 /* NavBar */
@@ -61,7 +60,6 @@
 
 .projects {
   min-height: 280px;
-  width: calc(100% - 100px);
   border: 1px solid gray;
   border-radius: 10px;
   margin-bottom: 20px;
