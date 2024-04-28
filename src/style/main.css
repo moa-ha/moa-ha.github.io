@@ -13,15 +13,17 @@
   box-sizing: border-box;
   box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.1);
 }
+
 .icon {
   width: 40px;
   margin: 10px;
+  transition: filter 0.3s ease;
 }
 
-/* .icon:hover {
-  background-color: #54dfd8;
-  color: white;
-} */
+.icon:hover {
+  filter: invert(88%) sepia(88%) saturate(1863%) hue-rotate(145deg)
+    brightness(90%) contrast(83%);
+}
 
 .nav-right {
   float: right;
@@ -57,15 +59,22 @@
 /* Projects */
 
 .projects {
-  height: 280px;
+  min-height: 280px;
   width: calc(100% - 100px);
-  border: 1px ridge gray;
+  border: 1px solid gray;
   border-radius: 10px;
   margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
 }
 .project {
   padding: 20px;
 }
+
+.projects:hover {
+  filter: brightness(110%);
+  box-shadow: 0px 0px 10px #54dfd8;
+}
+
 .wire-frame {
   width: 380px;
   float: right;
@@ -74,4 +83,32 @@
 
 .title {
   font-size: 25px;
+}
+
+.duration {
+  margin: 0px;
+  font-style: italic;
+  color: gray;
+}
+
+.description {
+  text-decoration: underline;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  color: #54dfd8;
+}
+
+.project-icon {
+  width: 20px;
+  margin: 5px;
+}
+.idea {
 }

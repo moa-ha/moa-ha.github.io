@@ -8,10 +8,10 @@ function NavBar() {
     <>
       <div className="navbar">
         <span>
-          <a href="https://github.com/moa-ha" target="blank">
+          <a href="https://github.com/moa-ha" target="_blank">
             <img src={github} alt="github" className="icon" />
           </a>
-          <a href="https://www.linkedin.com/in/moa-ha" target="blank">
+          <a href="https://www.linkedin.com/in/moa-ha" target="_blank">
             <img src={linkedin} alt="linkedin" className="icon" />
           </a>
         </span>
@@ -19,7 +19,7 @@ function NavBar() {
           <a href="#home">
             <img src={home} alt="home" className="icon" />
           </a>
-          <a href="#project" target="blank">
+          <a href="#project" target="_blank">
             <img src={projects} alt="projects" className="icon" />
           </a>
         </span>
