@@ -129,6 +129,14 @@
 .idea {
 }
 
+.stretch {
+  color: rgb(80, 78, 78);
+}
+.skills {
+  font-style: italic;
+  color: rgb(80, 78, 78);
+}
+
 @media screen and (max-width: 768px) {
   .projects {
     display: flex;
