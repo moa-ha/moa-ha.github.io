@@ -33,10 +33,13 @@
 /* Home */
 
 .home {
-  padding-top: 200px;
-  padding-left: ;
+  padding-top: 250px;
   font-size: 25px;
-  height: 400px;
+  height: 300px;
+  background-image: url('../image/background.png');
+  background-position: right center;
+  /* background-attachment: fixed; 이미지가 스크롤에 따라 움직이지 않습니다. */
+  background-repeat: no-repeat;
 }
 .small-gap {
   margin: 5px;
