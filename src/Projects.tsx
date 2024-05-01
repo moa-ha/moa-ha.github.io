@@ -16,11 +16,23 @@ function Projects() {
             <span className="title">Tradie Tracker</span>
             <p className="duration">from April 2024</p>
             <p className="description">
-              Efficient On-Site Location-Based Employee Scheduling App
+              Efficient Work Scheduling App
+              {/* Efficient On-Site Location-Based Employee Scheduling App */}
             </p>
             <p className="idea">
-              This project is from group proect from bootcamp, and I am remaking
-              from the scratch to consolidate the concepts and make clear code
+              This project is from group project from Dev Academy, and I am
+              remaking from the scratch to consolidate the concepts and make
+              clear code. The idea was to make a scheduling app using all the
+              tools including front & backend skills we've learnt throughout the
+              bootcamp.
+            </p>
+            <p className="stretch">
+              Stretch Goal: Implementing the Google Map Api to work with
+              back-end getting the real address data by string.
+            </p>
+            <p className="skills">
+              (React / TypeScript / CSS / Express.js / Restful APIs / SQLite3 /
+              Node.js / Knex)
             </p>
             <a
               href="https://github.com/moa-ha/Tradie-Tracker"
