@@ -16,7 +16,7 @@ function Projects() {
             <span className="title">Tradie Tracker</span>
             <p className="duration">from April 2024</p>
             <p className="description">
-              Efficient On-Site Location-Based Employee Scheduling App
+              {/* Efficient On-Site Location-Based Employee Scheduling App */}
             </p>
             <p className="idea">
               This project is from group proect from bootcamp, and I am remaking
