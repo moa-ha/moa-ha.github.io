@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div className="container">
+    <div className="container" id="home">
       <div className="home">
         <p className="small-gap">Hello World! I'm </p>
         <h1 className="small-gap">Moa Ha</h1>
@@ -10,9 +10,7 @@ function Home() {
         </a>
 
         <a href="#projects">
-          <button className="button" id="project">
-            Projects
-          </button>
+          <button className="button">Projects</button>
         </a>
         <a
           href="https://drive.google.com/file/d/1p27vWRIePgstw4dBp79gEKxeGFf_XJ4F/view?usp=sharing"

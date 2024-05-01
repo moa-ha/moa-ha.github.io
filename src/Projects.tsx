@@ -16,7 +16,7 @@ function Projects() {
             <span className="title">Tradie Tracker</span>
             <p className="duration">from April 2024</p>
             <p className="description">
-              Efficient Employee Scheduling App
+              Efficient Work Scheduling App
               {/* Efficient On-Site Location-Based Employee Scheduling App */}
             </p>
             <p className="idea">
@@ -32,7 +32,7 @@ function Projects() {
             </p>
             <p className="skills">
               (React / TypeScript / CSS / Express.js / Restful APIs / SQLite3 /
-              Node.js)
+              Node.js / Knex)
             </p>
             <a
               href="https://github.com/moa-ha/Tradie-Tracker"
