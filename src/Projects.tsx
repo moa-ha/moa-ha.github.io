@@ -1,6 +1,8 @@
 import tradietracker from './image/tradie-tracker.png'
 // import cargp from './image/Car-GP.png'
 import github from './image/github.png'
+import dreamfest from './image/dreamfest.gif'
+import pupparazzi from './image/pupparazzi.gif'
 
 function Projects() {
   return (
@@ -36,6 +38,51 @@ function Projects() {
             </p>
             <a
               href="https://github.com/moa-ha/Tradie-Tracker"
+              target="_blank"
+              className="link"
+            >
+              <img src={github} alt="github" className="icon project-icon" />
+              Github
+            </a>
+          </div>
+        </div>
+        <div className="projects">
+          <img src={dreamfest} alt="Dreamfest" className="wire-frame" />
+          <div className="project">
+            <span className="title">Dreamfest</span>
+            <p className="duration">20 Mar ~ 24 Mar 2024</p>
+            <p className="description">Music Festival Dashboard App</p>
+            <p className="idea">
+              Dreamfest is a music festival schedule managing app.<br></br>
+              This was my first app using Knex & SQL Database.
+            </p>
+            <p className="skills">
+              (Express.js / Restful APIs / SQLite3 / Knex)
+            </p>
+            <a
+              href="https://github.com/moa-ha/dreamfest"
+              target="_blank"
+              className="link"
+            >
+              <img src={github} alt="github" className="icon project-icon" />
+              Github
+            </a>
+          </div>
+        </div>
+        <div className="projects">
+          <img src={pupparazzi} alt="Dreamfest" className="wire-frame" />
+          <div className="project">
+            <span className="title">Pupparazzi</span>
+            <p className="duration">12 Mar ~ 01 Apr 2024</p>
+            <p className="description">Pet Profile Managing App</p>
+            <p className="idea">
+              Pupparazz is a pet diary to manage and edit profiles of dogs.
+              <br></br>
+              This was my first app using Express & JSON API's.
+            </p>
+            <p className="skills">(Express.js / JSON APIs)</p>
+            <a
+              href="https://github.com/moa-ha/pupparazzi"
               target="_blank"
               className="link"
             >

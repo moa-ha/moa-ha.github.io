@@ -95,6 +95,8 @@
 
 .wire-frame {
   width: 380px;
+  max-height: 250px;
+  object-fit: cover;
   float: right;
   padding: 20px;
 }
