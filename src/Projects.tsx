@@ -1,4 +1,4 @@
-import tradietracker from './image/tradie-tracker.png'
+import tradietracker from './image/tradie-tracker.gif'
 // import cargp from './image/Car-GP.png'
 import github from './image/github.png'
 import dreamfest from './image/dreamfest.gif'
