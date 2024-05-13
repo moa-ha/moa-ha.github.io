@@ -16,16 +16,18 @@ function Projects() {
           />
           <div className="project">
             <span className="title">Tradie Tracker</span>
-            <p className="duration">from April 2024</p>
+            <p className="duration">
+              09 Apr ~ 17 Apr (group), 21 Apr ~ 10 May (solo) 2024
+            </p>
             <p className="description">
               Efficient Work Scheduling App
               {/* Efficient On-Site Location-Based Employee Scheduling App */}
             </p>
             <p className="idea">
-              This project is from group project from Dev Academy, and I am
-              remaking from the scratch to consolidate the concepts and make
-              clear code. The idea was to make a scheduling app using all the
-              tools including front & backend skills we've learnt throughout the
+              This project is from group project from Dev Academy, and I remade
+              from the scratch to consolidate the concepts and make clear code.
+              The idea was to make a scheduling app using all the tools
+              including front & backend skills we've learnt throughout the
               bootcamp.
             </p>
             <p className="stretch">
