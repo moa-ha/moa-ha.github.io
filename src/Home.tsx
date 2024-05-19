@@ -13,7 +13,7 @@ function Home() {
           <button className="button">Projects</button>
         </a>
         <a
-          href="https://drive.google.com/file/d/1p27vWRIePgstw4dBp79gEKxeGFf_XJ4F/view?usp=sharing"
+          href="https://drive.google.com/file/d/1L7iZsVNffCYewiYr3u0bZuQNziCPSZdr/view?usp=sharing"
           target="_blank"
         >
           <button className="button">Check My CV</button>
