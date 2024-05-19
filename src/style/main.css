@@ -37,7 +37,7 @@
   font-size: 25px;
   height: 280px;
   background-image: url('../image/background.png');
-  background-position: right center;
+  background-position: center;
   background-repeat: no-repeat;
 }
 .small-gap {
@@ -155,5 +155,10 @@
   .wire-frame {
     width: 80%;
     padding-bottom: 0px;
+  }
+
+  .home {
+    background-position: right top;
+    background-size: 200px;
   }
 }
