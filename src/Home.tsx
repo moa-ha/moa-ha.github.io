@@ -1,6 +1,13 @@
+import { useState } from 'react'
 import AboutMe from './AboutMe'
+import Projects from './Projects'
 
 function Home() {
+  const [isShow, setIsShow] = useState(false)
+
+  const handleToggle = () => {
+    setIsShow(!isShow)
+  }
   return (
     <div className="container" id="home">
       <div className="home">
@@ -17,8 +24,12 @@ function Home() {
         >
           <button className="button">Check My CV</button>
         </a>
+        <button className="button" onClick={handleToggle}>
+          {isShow ? 'Close' : 'About Me'}
+        </button>
+        {isShow && <AboutMe />}
+        <Projects />
       </div>
-      <AboutMe />
     </div>
   )
 }
