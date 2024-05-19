@@ -1,3 +1,5 @@
+import AboutMe from './AboutMe'
+
 function Home() {
   return (
     <div className="container" id="home">
@@ -5,9 +7,6 @@ function Home() {
         <p className="small-gap">Hello World! I'm </p>
         <h1 className="small-gap">Moa Ha</h1>
         <p className="small-gap">Full Stack Developer</p>
-        <a href="#about-me">
-          <button className="button">About Me</button>
-        </a>
 
         <a href="#projects">
           <button className="button">Projects</button>
@@ -19,6 +18,7 @@ function Home() {
           <button className="button">Check My CV</button>
         </a>
       </div>
+      <AboutMe />
     </div>
   )
 }
