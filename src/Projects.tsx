@@ -4,45 +4,12 @@ import github from './image/github.png'
 import dreamfest from './image/dreamfest.gif'
 import pupparazzi from './image/pupparazzi.gif'
 import lyricSync from './image/LyricSync.png'
+import live from './image/live.png'
 
 function Projects() {
   return (
     <div className="container">
       <div id="projects">
-        <div className="projects">
-          <img src={lyricSync} alt="lyricsync logo" className="wire-frame" />
-          <div className="project">
-            <span className="title">LyricSync</span>
-            <p className="duration">25 Apr ~ 2024 (group)</p>
-            <p className="description">
-              -UNDER CONSTRUCTION-<br></br>
-            </p>
-            <p className="idea">
-              App for lyrics collection in translated language.
-              {/* A full-stack application which allows its user to save the lyrics
-              to their favourite songs. Collections can be created where a set
-              of songs can be compiled and saved. Additionally, the translation
-              to foreign songs can either be executed through the translation
-              feature in the app, or inputted manually. */}
-            </p>
-            {/* <p className="stretch">
-              Stretch Goal: Drag-n-drop items in a collection & romanisation
-              support for languages using a different alphabets/characters
-            </p> */}
-            {/* <p className="skills">
-              (React / TypeScript / CSS / Express.js / Restful APIs / SQLite3 /
-              Node.js / Knex)
-            </p> */}
-            <a
-              href="https://github.com/haruka-ogino/LyricSync"
-              target="_blank"
-              className="link"
-            >
-              <img src={github} alt="github" className="icon project-icon" />
-              Github
-            </a>
-          </div>
-        </div>
         <div className="projects">
           <img
             src={tradietracker}
@@ -80,6 +47,14 @@ function Projects() {
             >
               <img src={github} alt="github" className="icon project-icon" />
               Github
+            </a>
+            <a
+              href="https://tradie-tracker.pushed.nz/"
+              target="_blank"
+              className="link"
+            >
+              <img src={live} alt="github" className="icon project-icon" />
+              Live
             </a>
           </div>
         </div>
@@ -120,6 +95,40 @@ function Projects() {
             <p className="skills">(Express.js / JSON APIs)</p>
             <a
               href="https://github.com/moa-ha/pupparazzi"
+              target="_blank"
+              className="link"
+            >
+              <img src={github} alt="github" className="icon project-icon" />
+              Github
+            </a>
+          </div>
+        </div>
+        <div className="projects">
+          <img src={lyricSync} alt="lyricsync logo" className="wire-frame" />
+          <div className="project">
+            <span className="title">LyricSync</span>
+            <p className="duration">25 Apr ~ 2024 (group)</p>
+            <p className="description">
+              -UNDER CONSTRUCTION-<br></br>
+            </p>
+            <p className="idea">
+              App for lyrics collection in translated language.
+              {/* A full-stack application which allows its user to save the lyrics
+              to their favourite songs. Collections can be created where a set
+              of songs can be compiled and saved. Additionally, the translation
+              to foreign songs can either be executed through the translation
+              feature in the app, or inputted manually. */}
+            </p>
+            {/* <p className="stretch">
+              Stretch Goal: Drag-n-drop items in a collection & romanisation
+              support for languages using a different alphabets/characters
+            </p> */}
+            {/* <p className="skills">
+              (React / TypeScript / CSS / Express.js / Restful APIs / SQLite3 /
+              Node.js / Knex)
+            </p> */}
+            <a
+              href="https://github.com/haruka-ogino/LyricSync"
               target="_blank"
               className="link"
             >
