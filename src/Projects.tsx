@@ -1,5 +1,5 @@
 import tradietracker from './image/tradie-tracker.gif'
-import cargp from './image/car-gp.png'
+import carGp from './image/car-gp.png'
 import github from './image/github.png'
 import dreamfest from './image/dreamfest.gif'
 import pupparazzi from './image/pupparazzi.gif'
@@ -135,7 +135,7 @@ function Projects() {
       </div>
       <div className="projects">
         <img
-          src={cargp}
+          src={carGp}
           alt="Car-GP Wireframe"
           className="wire-frame wire-frame-mobile"
         />
