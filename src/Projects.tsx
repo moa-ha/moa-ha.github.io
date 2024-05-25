@@ -1,10 +1,10 @@
 import tradietracker from './image/tradie-tracker.gif'
-// import carGp from './image/car-gp.png'
 import github from './image/github.png'
 import dreamfest from './image/dreamfest.gif'
 import pupparazzi from './image/pupparazzi.gif'
 import lyricSync from './image/LyricSync.png'
 import live from './image/live.png'
+import cargp from './image/carGp.png'
 
 function Projects() {
   return (
@@ -134,11 +134,12 @@ function Projects() {
         </div>
       </div>
       <div className="projects">
-        {/* <img
-          src={carGp}
-          alt="Car-GP Wireframe"
+        <img
+          src={cargp}
+          alt="car gp"
           className="wire-frame wire-frame-mobile"
-        /> */}
+        />
+
         <div className="project">
           <span className="title">Car-GP</span>
           <p className="duration"> from May 2024</p>
