@@ -109,6 +109,10 @@
   padding: 20px;
 }
 
+.wire-frame-mobile {
+  object-fit: contain;
+}
+
 .title {
   font-size: 25px;
 }

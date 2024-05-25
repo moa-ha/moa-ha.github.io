@@ -1,5 +1,5 @@
 import tradietracker from './image/tradie-tracker.gif'
-// import cargp from './image/Car-GP.png'
+import cargp from './image/car-gp.png'
 import github from './image/github.png'
 import dreamfest from './image/dreamfest.gif'
 import pupparazzi from './image/pupparazzi.gif'
@@ -133,40 +133,33 @@ function Projects() {
           </a>
         </div>
       </div>
-      {/* {/* <div className="projects">
-          <img src={cargp} alt="Car-GP Wireframe" className="wire-frame" />
-          <div className="project">
-            <span className="title">Car-GP</span>
-            <p className="duration"> from April 2024</p>
-            <p className="description">
+      <div className="projects">
+        <img
+          src={cargp}
+          alt="Car-GP Wireframe"
+          className="wire-frame wire-frame-mobile"
+        />
+        <div className="project">
+          <span className="title">Car-GP</span>
+          <p className="duration"> from May 2024</p>
+          {/* <p className="description">
               An app that tracks car maintenance status and calculates upcoming
               maintenance schedules based on individual driving distances,
               sending alerts accordingly.
-            </p>
-            <p className="idea">
+            </p> */}
+          <p className="description">-UNDER CONSTRUCTION-</p>
+          <p className="idea">
+            An app that tracks car maintenance status and calculates upcoming
+            maintenance schedules based on individual driving distances, sending
+            alerts accordingly.
+          </p>
+          {/* <p className="idea">
               I had the idea for this app because I realized I didn't know much
               about cars and wished someone would provide this kind of
               information.
-            </p>
-          </div>
-        </div> */}
-      {/* <div className="projects">
-          <img src={cargp} alt="Car-GP Wireframe" className="wire-frame" />
-
-          <div className="project">
-            <span className="title">LyricSync</span>
-            <p className="duration">from May 2024</p>
-            <p className="description">
-              An app that translates song lyrics into the desired language and
-              stores them for offline viewing.
-            </p>
-            <p className="idea">
-              Finding lyrics are good tool for learning language, we wanted to
-              create an app like a notepad where users can store translated song
-              lyrics on their devices, making it accessible offline.
-            </p>
-          </div>
-        </div> */}
+            </p> */}
+        </div>
+      </div>
     </div>
   )
 }
