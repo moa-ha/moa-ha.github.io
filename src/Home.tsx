@@ -19,7 +19,7 @@ function Home() {
           <button className="button">Projects</button>
         </a>
         <a
-          href="https://drive.google.com/file/d/1CvYNeVqqf92nyM663tScaTJV6RvA0bJI/view?usp=sharing"
+          href="https://drive.google.com/file/d/1uWvuQ42HAevBe3w_IJwPoRSaHkgknmLO/view?usp=sharing"
           target="_blank"
         >
           <button className="button">Check My CV</button>
