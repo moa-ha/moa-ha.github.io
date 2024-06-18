@@ -159,6 +159,14 @@ function Projects() {
               about cars and wished someone would provide this kind of
               information.
             </p> */}
+          <a
+            href="https://github.com/moa-ha/car-gp"
+            target="_blank"
+            className="link"
+          >
+            <img src={github} alt="github" className="icon project-icon" />
+            Github
+          </a>
         </div>
       </div>
     </div>
