@@ -35,8 +35,8 @@ function Projects() {
             getting the real address data by string.
           </p>
           <p className="skills">
-            (React / TypeScript / CSS / Express.js / Restful APIs / SQLite3 /
-            Node.js / Knex)
+            (React / TypeScript / CSS / Restful APIs / Node.js / Express.js /
+            SQLite3 / Knex)
           </p>
           <a
             href="https://github.com/moa-ha/Tradie-Tracker"
