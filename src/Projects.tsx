@@ -38,6 +38,15 @@ function Projects() {
             (React / TypeScript / CSS / Restful APIs / Node.js / Express.js /
             SQLite3 / Knex)
           </p>
+          <p className="underline">What I Learned ✏️</p>
+          <p>
+            ✔️ Developed a full-stack application from scratch, enhancing my
+            understanding of the entire development process.<br></br>
+            ✔️ Gained experience in project planning, collaborating with team
+            members, and leading meetings.<br></br>
+            ✔️ Improved my ability to implement and manage both frontend and
+            backend components effectively.
+          </p>
           <a
             href="https://github.com/moa-ha/Tradie-Tracker"
             target="_blank"
@@ -67,6 +76,13 @@ function Projects() {
             This was my first app using Knex & SQL Database.
           </p>
           <p className="skills">(Express.js / Restful APIs / SQLite3 / Knex)</p>
+          <p className="underline">What I Learned ✏️</p>
+          <p>
+            ✔️ Acquired practical experience integrating SQLite as a database
+            for handling CRUD operations.<br></br>
+            ✔️ Enhanced my understanding of RESTful API design and
+            implementation.
+          </p>
           <a
             href="https://github.com/moa-ha/dreamfest"
             target="_blank"
