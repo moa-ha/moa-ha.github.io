@@ -148,6 +148,15 @@ function Projects() {
               (React / TypeScript / CSS / Express.js / Restful APIs / SQLite3 /
               Node.js / Knex)
             </p> */}
+          <p className="underline">What I'm Learning ✏️</p>
+          <p>
+            ✔️ Collaborating weekly with a teammate to develop a full-stack app,
+            gaining deeper familiarity with previously used tools.<br></br>
+            ✔️ Continuously learning and integrating new features, such as unit
+            testing, which I hadn't focused on before.<br></br>
+            ✔️ Enhancing my skills in teamwork, problem-solving, and iterative
+            development.
+          </p>
           <a
             href="https://github.com/haruka-ogino/LyricSync"
             target="_blank"
@@ -178,6 +187,15 @@ function Projects() {
             An app that tracks car maintenance status and calculates upcoming
             maintenance schedules based on individual driving distances, sending
             alerts accordingly.
+          </p>
+          <p className="underline">What I'm Learning ✏️</p>
+          <p>
+            ✔️ Integrated Auth0 and JWT for authentication, expanding my
+            understanding of secure user authentication.<br></br>
+            ✔️ Improved my design skills to create more professional and
+            user-friendly interfaces.<br></br>
+            ✔️ Continued to broaden my tech stack and enhance my ability to
+            manage a project independently.
           </p>
           {/* <p className="idea">
               I had the idea for this app because I realized I didn't know much
