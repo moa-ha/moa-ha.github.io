@@ -156,6 +156,9 @@
   font-size: 18px;
 }
 
+.underline {
+  text-decoration: underline;
+}
 @media screen and (max-width: 768px) {
   .projects {
     display: flex;

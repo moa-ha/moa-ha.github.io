@@ -89,6 +89,15 @@ function Projects() {
             This was my first app using Express & JSON API's.
           </p>
           <p className="skills">(Express.js / JSON APIs)</p>
+          <p className="underline">What I Learned ✏️</p>
+          <p>
+            ✔️ Gained hands-on experience with CRUD operations using JSON and
+            the file system.<br></br>
+            ✔️ Developed skills in handling data persistence and management in a
+            local environment.<br></br>
+            ✔️ Improved my understanding of working with Express.js to build and
+            manage server-side logic.
+          </p>
           <a
             href="https://github.com/moa-ha/pupparazzi"
             target="_blank"
