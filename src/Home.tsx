@@ -1,12 +1,18 @@
 import { useState } from 'react'
 import AboutMe from './AboutMe'
 import Projects from './Projects'
+import OngoingProjects from './OngoingProjects'
 
 function Home() {
   const [isShow, setIsShow] = useState(false)
+  const [projects, setProjects] = useState(false)
 
   const handleToggle = () => {
     setIsShow(!isShow)
+  }
+
+  const handleProjects = () => {
+    setProjects(!projects)
   }
   return (
     <div className="container" id="home">
@@ -31,7 +37,16 @@ function Home() {
           {isShow ? 'Close' : 'About Me'}
         </button>
         {isShow && <AboutMe />}
-        <Projects />
+        <div className="projects-container">
+          <button className="project-toggle" onClick={handleProjects}>
+            Ongoing Projects
+          </button>
+          <button className="project-toggle" onClick={handleProjects}>
+            Completed Projects
+          </button>
+          {projects && <Projects />}
+          {!projects && <OngoingProjects />}
+        </div>
       </div>
     </div>
   )
