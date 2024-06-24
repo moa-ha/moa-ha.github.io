@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import AboutMe from './AboutMe'
 import Projects from './Projects'
 import OngoingProjects from './OngoingProjects'
@@ -11,9 +11,17 @@ function Home() {
     setIsShow(!isShow)
   }
 
-  const handleProjects = () => {
-    setProjects(!projects)
+  const onGoing = () => {
+    setProjects(false)
   }
+  const completed = () => {
+    setProjects(true)
+  }
+
+  useEffect(() => {
+    setProjects(false)
+  }, [])
+
   return (
     <div className="container" id="home">
       <div className="home">
@@ -38,10 +46,10 @@ function Home() {
         </button>
         {isShow && <AboutMe />}
         <div className="projects-container">
-          <button className="project-toggle" onClick={handleProjects}>
+          <button className="project-toggle" onClick={onGoing}>
             Ongoing Projects
           </button>
-          <button className="project-toggle" onClick={handleProjects}>
+          <button className="project-toggle" onClick={completed}>
             Completed Projects
           </button>
           {projects && <Projects />}
