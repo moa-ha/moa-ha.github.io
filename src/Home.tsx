@@ -5,21 +5,18 @@ import OngoingProjects from './OngoingProjects'
 
 function Home() {
   const [isShow, setIsShow] = useState(false)
-  const [projects, setProjects] = useState(false)
+  const [showCompleted, setShowCompleted] = useState(false)
 
   const handleToggle = () => {
     setIsShow(!isShow)
   }
 
-  const onGoing = () => {
-    setProjects(false)
-  }
-  const completed = () => {
-    setProjects(true)
+  const handleProject = (completed: boolean) => {
+    setShowCompleted(completed)
   }
 
   useEffect(() => {
-    setProjects(false)
+    setShowCompleted(false)
   }, [])
 
   return (
@@ -45,15 +42,22 @@ function Home() {
           {isShow ? 'Close' : 'About Me'}
         </button>
         {isShow && <AboutMe />}
+
         <div className="projects-container">
-          <button className="project-toggle" onClick={onGoing}>
+          <button
+            className={`project-toggle ${!showCompleted ? 'active' : ''}`}
+            onClick={() => handleProject(false)}
+          >
             Ongoing Projects
           </button>
-          <button className="project-toggle" onClick={completed}>
+          <button
+            className={`project-toggle ${showCompleted ? 'active' : ''}`}
+            onClick={() => handleProject(true)}
+          >
             Completed Projects
           </button>
-          {projects && <Projects />}
-          {!projects && <OngoingProjects />}
+          {!showCompleted && <OngoingProjects />}
+          {showCompleted && <Projects />}
         </div>
       </div>
     </div>
