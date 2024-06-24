@@ -14,6 +14,9 @@ function Home() {
         <p className="small-gap">Hello World! I'm </p>
         <h1 className="small-gap">Moa Ha</h1>
         <p className="small-gap">Full Stack Developer</p>
+        <p className="skills small">
+          → HTML, JavaScript, TypeScript, CSS, React, Node.js, SQLite3
+        </p>
 
         <a href="#projects">
           <button className="button">Projects</button>
