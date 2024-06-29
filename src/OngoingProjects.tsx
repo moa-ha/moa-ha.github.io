@@ -10,7 +10,7 @@ function OngoingProjects() {
           <img src={lyricSync} alt="lyricsync logo" className="wire-frame" />
           <div className="project">
             <span className="title">LyricSync</span>
-            <p className="duration">25 Apr ~ 2024 (group)</p>
+            <p className="duration">from May 2024 (group)</p>
             <p className="description">
               -UNDER CONSTRUCTION-<br></br>
             </p>
