@@ -1,7 +1,8 @@
 # Moa's Blog
 
-This is portfolio website which is a showcase of what I've learned and experienced through the projects I've worked on and am currently working on.<br>
-Url: https://moa-ha.github.io/
+
+ https://moa-ha.github.io/ This was my first portfolio website. <br>
+ Please check out revamped version at https://dev-moa-blog.vercel.app/
 
 ## Built with
 
