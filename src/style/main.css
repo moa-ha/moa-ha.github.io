@@ -192,6 +192,22 @@
   background-color: rgba(84, 223, 216, 0.5);
 }
 
+.redirect {
+  color: rgb(80, 78, 78);
+}
+
+.redirect a {
+  color: #54dfd8;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.redirect a:hover {
+  color: #2bbfb8;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 768px) {
   .projects {
     display: flex;

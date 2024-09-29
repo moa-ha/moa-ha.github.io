@@ -28,6 +28,10 @@ function Home() {
         <p className="skills small">
           → HTML, JavaScript, TypeScript, CSS, React, Node.js, SQLite3
         </p>
+        <p className="redirect">
+          Please check out my revamped portfolio{' '}
+          <a href="https://dev-moa-blog.vercel.app/">here</a>
+        </p>
 
         <a href="#projects">
           <button className="button">Projects</button>
@@ -42,7 +46,6 @@ function Home() {
           {isShow ? 'Close' : 'About Me'}
         </button>
         {isShow && <AboutMe />}
-
         <div className="projects-container">
           <button
             className={`project-toggle ${!showCompleted ? 'active' : ''}`}
